@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0c0571a-e190-4d65-9f96-4093feb5da15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/controller/StudentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/repository/implement/StudentRepositoryImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0c0571a-e190-4d65-9f96-4093feb5da15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +25,7 @@
   <component name="HttpClientSelectedEnvironments">
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -147,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674825599379</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":sparkles: 完成服务提供者提供的服务——学生信息的增删改查&#10;这部分功能的实现即SpringBoot的正常流程">
+      <created>1674830233877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674830233877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +169,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=":sparkles: 完成注册中心的功能" />
     <MESSAGE value=":sparkles: 将一个服务提供者在注册中心完成注册" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: 将一个服务提供者在注册中心完成注册" />
+    <MESSAGE value=":sparkles: 完成服务提供者提供的服务——学生信息的增删改查&#10;这部分功能的实现即SpringBoot的正常流程" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: 完成服务提供者提供的服务——学生信息的增删改查&#10;这部分功能的实现即SpringBoot的正常流程" />
   </component>
 </project>

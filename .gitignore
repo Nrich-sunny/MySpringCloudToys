@@ -36,3 +36,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.idea/httpRequests/2023-01-27T222550.200.json
+/.idea/httpRequests/2023-01-27T222911.200.json
+/.idea/httpRequests/2023-01-27T223354.200.json
+/.idea/httpRequests/http-client.cookies
+/.idea/httpRequests/http-requests-log.http
