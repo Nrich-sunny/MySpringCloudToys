@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0c0571a-e190-4d65-9f96-4093feb5da15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eurekaclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/controller/StudentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/nrich/repository/implement/StudentRepositoryImplement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -17,9 +17,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -65,7 +77,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="HTTP Request.MySpringCloudToys-endpoints | #1">
+    <configuration name="MySpringCloudToys-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/MySpringCloudToys-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="MySpringCloudToys-endpoints_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/MySpringCloudToys-endpoints_2.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="MySpringCloudToys-endpoints_3 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/MySpringCloudToys-endpoints_3.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nrich.EurekaServerApplication" />
@@ -94,6 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.MySpringCloudToys-endpoints | #1" />
+        <item itemvalue="HTTP Request.MySpringCloudToys-endpoints_3 | #1" />
+        <item itemvalue="HTTP Request.MySpringCloudToys-endpoints_2 | #1" />
         <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
@@ -116,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674818642004</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":sparkles: 将一个服务提供者在注册中心完成注册">
+      <created>1674825599379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674825599379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=":sparkles: 完成注册中心的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: 完成注册中心的功能" />
+    <MESSAGE value=":sparkles: 将一个服务提供者在注册中心完成注册" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: 将一个服务提供者在注册中心完成注册" />
   </component>
 </project>
